@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>PushState for CreateJS</title>
+    </head>
+    <body>
+        <p style="position:absolute;z-index:1000;lleft:0;bottom:0;margin:0 0 1px 5px;">left: prev, right: next, up: top</p>
+
+        <!-- canvas タグを作成する -->
+        <canvas id="canvas">&lt;canvas&gt; tag is not supported.</canvas>
+
+        <!-- 必要な依存ライブラリをロードする -->
+        <script src="/lib/createjs-2013.02.12.min.js"></script>
+        <script src="/lib/jquery.js"></script>
+        <script src="/lib/tinycolor.js"></script>
+        <script src="/lib/jppcorelib.js"></script>
+        <script src="/lib/kazitori.js"></script>
+        <script src="/lib/milkpack.js"></script>
+
+        <!-- アプリケーションのスクリプトをロードする -->
+        <script src="/script/application.js"></script>
+
+        <!-- アプリケーションを開始する -->
+        <script>
+            new Application({ isReleaseMode: true })
+        </script>
+
+    </body>
+</html>

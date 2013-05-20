@@ -1,0 +1,5 @@
+node_modules
+design
+*.sublime-*
+.DS_Store
+.svn
