@@ -655,7 +655,8 @@
       this.manager = this.getManager();
       this.pageContainer = this.manager.pageContainer;
       this.moveContainer = this.manager.moveContainer;
-      return this.zoomContainer = this.manager.zoomContainer;
+      this.zoomContainer = this.manager.zoomContainer;
+      return this.setTitle('PushState for CreateJS');
     };
 
     IndexScene.prototype._onHello = function() {
@@ -861,7 +862,8 @@
       this.zoomContainer = this.manager.zoomContainer;
       this.stage = this.manager.stage;
       this.image = this.manager.resourcesById[this.manager.pageLength - 1];
-      return this.bitmap = new createjs.Bitmap(this.image);
+      this.bitmap = new createjs.Bitmap(this.image);
+      return this.setTitle('See you | PushState for CreateJS');
     };
 
     LastScene.prototype._onHello = function() {
@@ -1002,7 +1004,8 @@
       this.pageContainer = this.manager.pageContainer;
       this.moveContainer = this.manager.moveContainer;
       this.zoomContainer = this.manager.zoomContainer;
-      return this.pageView = this.page.getView();
+      this.pageView = this.page.getView();
+      return this.setTitle("" + this.pageIndex + " of " + (this.manager.pageLength - 2) + " | PushState for CreateJS");
     };
 
     PageScene.prototype._onHello = function() {

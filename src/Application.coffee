@@ -18,6 +18,7 @@ class Application extends jpp.milkpack.Milkpack
 
     # アプリケーションの起点となるパス
     # 例えば http://example.com/hoge/fuga/ を起点とするのであれば /hoge/fuga/ となる
+    #root: '/createjs_seminar/03/presentation/'
     root: '/'
 
     # アプリケーションの起点となるファイル

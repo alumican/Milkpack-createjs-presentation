@@ -37,6 +37,8 @@ class IndexScene extends jpp.milkpack.Scene
         @moveContainer = @manager.moveContainer
         @zoomContainer = @manager.zoomContainer
 
+        @setTitle('PushState for CreateJS')
+
     #シーン遷移メソッド（シーン通過 / 到着）のオーバーライド
     _onHello: () =>
         @moveContainer.rotation = (1 + Math.random()) * 360

@@ -42,6 +42,8 @@ class LastScene extends jpp.milkpack.Scene
         @image = @manager.resourcesById[@manager.pageLength - 1]
         @bitmap = new createjs.Bitmap(@image)
 
+        @setTitle('See you | PushState for CreateJS')
+
     #シーン遷移メソッド（シーン通過 / 到着）のオーバーライド
     _onHello: () =>
         @addCommand(

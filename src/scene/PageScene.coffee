@@ -43,6 +43,8 @@ class PageScene extends jpp.milkpack.Scene
         @zoomContainer = @manager.zoomContainer
         @pageView      = @page.getView()
 
+        @setTitle("#{@pageIndex} of #{@manager.pageLength - 2} | PushState for CreateJS")
+
     #シーン遷移メソッド（シーン通過 / 到着）のオーバーライド
     _onHello: () =>
         @addCommand(
