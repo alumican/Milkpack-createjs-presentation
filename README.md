@@ -3,7 +3,7 @@
 
 第3回 CreateJS 勉強会で発表した「pushState を使ったフルCreateJSサイトの作り方」のプレゼン資料です。
 
-Milkpack.js と CreateJS の連携サンプルと詳細なソースコードも併せてご覧ください。  
+[Milkpack.js](https://github.com/alumican/Milkpack.js) と [CreateJS](http://www.createjs.com) の連携サンプルと詳細なソースコードも併せてご覧ください。  
 [https://github.com/alumican/Milkpack-createjs-example](https://github.com/alumican/Milkpack-createjs-example)
 
 時間がなかったので資料の中にある createjs.DOMElement は使わずにすべて canves でレンダリングしています。
